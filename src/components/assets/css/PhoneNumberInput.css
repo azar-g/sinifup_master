@@ -1,0 +1,50 @@
+.form-control {
+    font-size: 12px;
+}
+
+.react-tel-input .country-list {
+    position: relative;
+}
+
+/* Set the position of the dropdown arrow icon to absolute */
+.react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.react-tel-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    width: 100%;
+}
+
+/* .flag-dropdown:hover {
+    border-color: #69c0ff !important;
+} */
+
+/* Global CSS rule to set hover color for all input elements */
+input:hover {
+    border-color: #69c0ff !important;
+}
+
+/* Styling for the PhoneInput component */
+.PhoneInput {
+    margin-bottom: 8px;
+}
+
+/* Styling for the error state of the PhoneInput component */
+.PhoneInput--error {
+    border-color: #ff4d4f;
+}
+
+/* Styling for the TextField component from MUI */
+.MuiTextField-root {
+    margin-bottom: 8px;
+}
+
+/* Styling for the error state of the TextField component from MUI */
+.MuiTextField-root.Mui-error {
+    border-color: #ff4d4f;
+}

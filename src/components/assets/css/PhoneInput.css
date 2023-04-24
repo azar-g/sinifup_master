@@ -1,0 +1,27 @@
+/* Set the position of the country list dropdown to relative */
+.react-tel-input .country-list {
+    position: relative;
+}
+
+/* Set the position of the dropdown arrow icon to absolute */
+.react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.react-tel-input .country-list {
+    width: 100%;
+    /* padding: 8px 9px 13px 10px; */
+}
+.react-tel-input .country-list .country {
+    position: relative;
+    padding: 6px 8px 6px 46px;
+}
+
+.react-tel-input .country-list .flag {
+    margin-right: 7px;
+    margin-top: 0px;
+}
+input:hover {
+    border-color: #69c0ff !important;
+}
